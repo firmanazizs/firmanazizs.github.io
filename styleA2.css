@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Pengaturan latar belakang untuk seluruh halaman */
+body {
+    background-image: url('menu/bgkeranjang.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang yang lembut */
+}
+
+/* Header */
+.header {
+    padding: 20px 0;
+    background-color: #002348; /* Warna navy */
+    color: white;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Kontainer utama */
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih dengan transparansi */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan halus */
+}
+
+/* Judul */
+h1 {
+    color: white; /* Warna navy untuk judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #002348; /* Warna navy untuk judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulir tambah menu */
+form {
+    margin-bottom: 30px; /* Jarak antara formulir dan daftar menu */
+}
+
+/* Input dan Select */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Border abu-abu */
+    border-radius: 5px; /* Sudut membulat */
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak antara sel */
+    margin-top: 20px; /* Jarak di atas tabel */
+}
+
+table, th, td {
+    border: 1px solid #002348; /* Border navy */
+}
+
+/* Header tabel */
+th, td {
+    padding: 10px;
+    text-align: left; /* Teks rata kiri */
+}
+
+th {
+    background-color: #002348; /* Warna navy untuk header tabel */
+    color: white; /* Teks putih */
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    background: rgb(242, 255, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: darkgrey; /* Warna latar belakang pada hover */
+}
+
+/* Pusatkan tombol kembali */
+.centered-button {
+    display: flex;
+    justify-content: center; /* Pusatkan tombol */
+    margin-top: 10px; /* Jarak di atas tombol */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Lebar kontainer lebih kecil di perangkat kecil */
+    }
+}

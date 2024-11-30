@@ -1,0 +1,70 @@
+body {
+    background-image: url('menu/bgkeranjang.jpg'); /* Ganti dengan path yang sesuai */
+    background-size: cover; /* Membuat gambar menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    height: 100vh; /* Mengatur tinggi body agar sesuai dengan viewport */
+    margin: 0; /* Menghapus margin default */
+    display: flex; /* Menggunakan Flexbox untuk memusatkan konten */
+    flex-direction: column; /* Mengatur arah konten menjadi kolom */
+    justify-content: space-between; /* Memberikan jarak antara elemen atas dan bawah */
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #002348; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    text-align: center; /* Rata tengah teks di header */
+    border-radius: 0 0 20px 20px; /* Sudut membulat di bagian bawah */
+}
+
+.container {
+    background-color: white; /* Latar belakang putih untuk kontainer */
+    padding: 30px; /* Jarak dalam kontainer */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+    text-align: center; /* Rata tengah teks dalam kontainer */
+    width: 100%; /* Lebar kontainer 100% */
+    max-width: 400px; /* Lebar maksimum kontainer */
+    margin: auto; /* Memusatkan kontainer */
+}
+
+h1, h2 {
+    margin: 0 0 10px; /* Mengatur margin judul */
+}
+
+.bayar-btn {
+    background-color: rgb(242, 255, 0); /* Warna latar belakang tombol bayar */
+    color: black; /* Warna teks tombol bayar */
+    padding: 10px 20px; /* Jarak dalam tombol bayar */
+    border: none; /* Menghapus border */
+    border-radius: 5px; /* Sudut membulat tombol bayar */
+    font-size: 18px; /* Ukuran font untuk tombol bayar */
+    cursor: pointer; /* Menunjukkan bahwa ini adalah elemen yang dapat diklik */
+    transition: background 0.3s; /* Transisi untuk perubahan warna latar belakang */
+}
+
+.bayar-btn:hover {
+    background-color: darkgoldenrod; /* Warna saat hover pada tombol bayar */
+}
+
+footer {
+    text-align: center; /* Rata tengah teks footer */
+    padding: 10px 0; /* Jarak dalam footer */
+    background-color: #f1f1f1; /* Latar belakang footer */
+}
+
+.btn {
+    display: inline-block; /* Menampilkan tombol sebagai blok inline */
+    background: rgb(242, 255, 0); /* Warna latar belakang tombol */
+    color: rgb(0, 0, 0); /* Warna teks tombol */
+    padding: 10px 20px; /* Jarak dalam tombol */
+    border-radius: 5px; /* Sudut membulat tombol */
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    margin-top: 20px; /* Jarak atas tombol */
+    transition: background 0.3s; /* Transisi untuk efek hover */
+}
+
+.btn:hover {
+    background: darkgoldenrod; /* Warna saat hover */
+}

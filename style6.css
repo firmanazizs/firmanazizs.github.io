@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('menu/bgkeranjang.jpg'); /* Ganti dengan path yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #002348;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #002348;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #002348;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #002348;
+    color: white;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: center; /* Memusatkan tombol secara horizontal */
+    align-items: center; /* Memusatkan tombol secara vertikal */
+    margin-top: 20px; /* Jarak atas dari elemen sebelumnya */
+}
+
+.logout-btn {
+    display: inline-block;
+    background: rgb(242, 255, 0);
+    color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: darkgrey; /* Ganti warna saat hover */
+}
+
+.btn {
+    display: flex;
+    flex-direction: column; /* Mengatur teks ke atas dan bawah */
+    align-items: center; /* Center text horizontally */
+    background-color: #f2f2f2; /* Warna latar tombol */
+    color: #002348; /* Warna teks */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px; /* Margin antar tombol */
+    flex: 1; /* Tombol memenuhi ruang yang ada */
+    transition: background 0.3s; /* Transisi halus */
+}
+
+.btn:hover {
+    background-color: darkgrey; /* Ganti warna saat hover */
+}
+
+.btn-text {
+    text-align: center; /* Center text */
+}
+
+.btn-text span {
+    display: block; /* Agar tulisan di atas dan bawah bisa terpisah */
+}

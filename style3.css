@@ -1,0 +1,119 @@
+body {
+    background-image: url('menu/bgkeranjang.jpg'); /* Ganti dengan path yang sesuai */
+    background-size: cover; /* Membuat gambar menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    height: 100vh; /* Mengatur tinggi body agar sesuai dengan viewport */
+    margin: 0; /* Menghapus margin default */
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #002348; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    text-align: center; /* Rata tengah teks di header */
+    border-radius: 0 0 20px 20px;
+}
+
+.container {
+    max-width: 800px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Memusatkan kontainer */
+    padding: 20px; /* Jarak di dalam kontainer */
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+    line-height: 120%;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(242, 255, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: darkgrey; /* Warna saat hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white !important; /* Memastikan latar belakang putih */
+}
+
+table, th, td {
+    border: 1px solid #002348; /* Warna border */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #002348; /* Warna latar belakang header tabel */
+    color: white; /* Warna teks header tabel */
+}
+
+.table-nomor-tempat-duduk {
+    background-color: #c3c3c3 !important; /* Latar belakang putih untuk tabel nomor tempat duduk */
+}
+
+.table-menu-action {
+    background-color: white; /* Latar belakang putih untuk menu */
+}
+
+/* Latar belakang untuk baris pesan */
+.table-message {
+    background-color: #c3c3c3; /* Latar belakang abu-abu muda */
+}
+
+/* Input untuk pesan */
+.input-pesan {
+    width: calc(100% - 10px); /* Mengisi lebar kolom dengan margin */
+    padding: 5px; /* Menambahkan padding untuk tampilan yang lebih baik */
+    box-sizing: border-box; /* Memastikan padding dihitung dalam lebar total */
+}
+
+/* Input untuk nomor tempat duduk */
+.input-nomor-tempat-duduk {
+    width: 100%; /* Lebar input nomor tempat duduk */
+    padding: 5px; /* Menambahkan padding untuk tampilan yang lebih baik */
+    box-sizing: border-box; /* Memastikan padding dihitung dalam lebar total */
+}
+
+/* Tambahan gaya (jika ingin menambah elemen lain) */
+h1 {
+    font-size: 24px; /* Ukuran font untuk h1 */
+}
+
+h2 {
+    font-size: 20px; /* Ukuran font untuk h2 */
+}
+.payment-container { 
+    text-align: center;
+    color: white;
+    background-color: #002348; /* Latar belakang biru */
+    padding: 20px; /* Jarak dalam untuk kontainer pembayaran */
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.bayar-btn{
+    background-color: rgb(242,255,0);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.bayar-btn:hover{
+    background-color: darkgoldenrod;
+}
